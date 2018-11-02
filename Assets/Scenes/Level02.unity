@@ -1940,9 +1940,9 @@ GameObject:
   - component: {fileID: 243469128}
   - component: {fileID: 243469127}
   - component: {fileID: 243469126}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obstaculos
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
