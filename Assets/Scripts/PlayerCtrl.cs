@@ -23,12 +23,17 @@ public class PlayerCtrl : MonoBehaviour {
 	bool isJumping = false;
 	public bool isGrounded = false;
 	public Transform feet;
+	public Transform rightShoot;
+	public Transform leftShoot;
 	public LayerMask whatIsGround;
 	public float feetWidth = 1f;
 	public float feetHeight = 0.1f;
 
 	public bool canDoubleJump = false;
 	public float delayForDoubleJump = 0.2f;
+
+	public GameObject rightShootPrefab;
+	public GameObject leftShootPrefab;
 
 	// Use this for initialization
 	void Start () {
@@ -63,7 +68,15 @@ public class PlayerCtrl : MonoBehaviour {
 			Jump();
 		}
 
+		if (Input.GetButtonDown("Fire1")) {
+			Shoot();
+		}
+
 		ShowFalling();
+	}
+
+	void Shoot() {
+		Instantiate(rightShootPrefab, rightShoot.position, Quaternion.identity);
 	}
 
 	void MoveHorizontal(float speed) {
