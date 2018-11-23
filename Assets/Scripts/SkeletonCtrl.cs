@@ -20,4 +20,10 @@ public class SkeletonCtrl : MonoBehaviour {
 	void Move() {
 		rb.velocity = speed * direction.normalized;
 	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.tag == "Shoot") {
+			Destroy(this.gameObject);
+		}
+	}
 }
