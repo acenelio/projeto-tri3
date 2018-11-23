@@ -15,4 +15,11 @@ public class LaserCtrl : MonoBehaviour {
 	void FixedUpdate () {
 		rb.velocity = Vector2.right * speed;
 	}
+
+	
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.tag == "MainCamera") {
+			Destroy(this.gameObject);
+		}
+	}
 }
