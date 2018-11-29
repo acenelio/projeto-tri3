@@ -10,4 +10,6 @@ public class AudioSFX {
 	public AudioClip fail;
 
 	public AudioClip laser;
+
+	public AudioClip squish;
 }
