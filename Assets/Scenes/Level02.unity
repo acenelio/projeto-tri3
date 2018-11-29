@@ -1812,6 +1812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinParticles: {fileID: 1794227681664362, guid: d22929d3da5211c42be135b710379b0b,
     type: 2}
+  killParticles: {fileID: 1731846890922492, guid: 40e447c330a982242a19cb55ffe70b69,
+    type: 2}
 --- !u!1 &235067873
 GameObject:
   m_ObjectHideFlags: 0
