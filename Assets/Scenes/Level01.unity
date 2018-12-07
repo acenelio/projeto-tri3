@@ -44159,7 +44159,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 648641622}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1139737484}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level02
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &648641622
@@ -46015,6 +46026,7 @@ GameObject:
   - component: {fileID: 1139737482}
   - component: {fileID: 1139737481}
   - component: {fileID: 1139737483}
+  - component: {fileID: 1139737484}
   m_Layer: 5
   m_Name: LevelCompleteStarPanel
   m_TagString: Untagged
@@ -46105,6 +46117,17 @@ MonoBehaviour:
   scoreForNextLevel: 20
   animStartDelay: 0.7
   animDelay: 0.5
+--- !u!114 &1139737484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1139737479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ad06ec1e905b1144b34adc9a29cf863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1156955980 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1731553395798436, guid: 362aab4d160ef394583a05982da18be2,
@@ -52114,7 +52137,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2130496995}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1139737484}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level01
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2130496995
