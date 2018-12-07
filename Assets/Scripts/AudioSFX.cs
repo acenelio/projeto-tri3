@@ -12,4 +12,8 @@ public class AudioSFX {
 	public AudioClip laser;
 
 	public AudioClip squish;
+
+	public AudioClip star;
+
+	public AudioClip levelComplete;
 }
