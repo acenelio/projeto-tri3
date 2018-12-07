@@ -312,11 +312,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4331043737545962, guid: d4519aa1c8f4f9447856a66fcf7997ec,
     type: 2}
   m_PrefabInternal: {fileID: 23256959}
---- !u!1 &34415985 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1616654309459506, guid: 362aab4d160ef394583a05982da18be2,
-    type: 2}
-  m_PrefabInternal: {fileID: 46433647}
 --- !u!1 &34692326
 GameObject:
   m_ObjectHideFlags: 0
@@ -44416,7 +44411,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722461546}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2, y: 0.48, z: 0}
+  m_LocalPosition: {x: 167.4, y: 7.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -46026,7 +46021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1139737480
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46671,12 +46666,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4331043737545962, guid: d4519aa1c8f4f9447856a66fcf7997ec,
     type: 2}
   m_PrefabInternal: {fileID: 1278723670}
---- !u!114 &1296492282 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114286856550315000, guid: 362aab4d160ef394583a05982da18be2,
-    type: 2}
-  m_PrefabInternal: {fileID: 46433647}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1299204803
 Prefab:
   m_ObjectHideFlags: 0
@@ -47087,12 +47076,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4331043737545962, guid: d4519aa1c8f4f9447856a66fcf7997ec,
     type: 2}
   m_PrefabInternal: {fileID: 1344168493}
---- !u!114 &1344963250 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114539007584573698, guid: 362aab4d160ef394583a05982da18be2,
-    type: 2}
-  m_PrefabInternal: {fileID: 46433647}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1346736817
 GameObject:
   m_ObjectHideFlags: 0
@@ -51951,9 +51934,7 @@ MonoBehaviour:
       txtTimer: {fileID: 1428130784}
       gameOverPanel: {fileID: 1642446255}
     levelComplete:
-      txtCoinCount: {fileID: 1344963250}
-      txtTimer: {fileID: 1296492282}
-      levelCompletePanel: {fileID: 34415985}
+      levelCompleteStarPanel: {fileID: 1139737479}
 --- !u!1001 &2084899318
 Prefab:
   m_ObjectHideFlags: 0

@@ -123,9 +123,12 @@ public class GM : MonoBehaviour {
 	public void LevelComplete() {
 		Destroy(player.gameObject);
 		timerOn = false;
+		ui.levelComplete.levelCompleteStarPanel.SetActive(true);
+		/* 
 		ui.levelComplete.txtCoinCount.text = "Coins: " + data.coinCount;
 		ui.levelComplete.txtTimer.text = "Timer: " + timeLeft.ToString("F1");
 		ui.levelComplete.levelCompletePanel.SetActive(true);
+		*/
 	}
 
 
