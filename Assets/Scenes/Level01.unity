@@ -46017,6 +46017,7 @@ GameObject:
   - component: {fileID: 1139737480}
   - component: {fileID: 1139737482}
   - component: {fileID: 1139737481}
+  - component: {fileID: 1139737483}
   m_Layer: 5
   m_Name: LevelCompleteStarPanel
   m_TagString: Untagged
@@ -46083,6 +46084,30 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139737479}
+--- !u!114 &1139737483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1139737479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 531efc5847d8cfc47a54735daa568156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnNext: {fileID: 648641621}
+  goldenStar: {fileID: 21300000, guid: 038cf7eab65bfbf4994354126f9fe103, type: 3}
+  Star1: {fileID: 1838946190}
+  Star2: {fileID: 869905906}
+  Star3: {fileID: 1346736819}
+  txtScore: {fileID: 1953315046}
+  score: 25
+  scoreForOneStar: 10
+  scoreForTwoStars: 20
+  scoreForThreeStars: 30
+  scoreForNextLevel: 20
+  animStartDelay: 0.7
+  animDelay: 0.5
 --- !u!1 &1156955980 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1731553395798436, guid: 362aab4d160ef394583a05982da18be2,
